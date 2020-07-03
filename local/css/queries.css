@@ -1,0 +1,455 @@
+/* Big tablet to 1200px (widths smaller than 1140px row) */
+@media (max-width: 1200px) {
+    h1 { font-size: 50px; }
+
+    .food-main-menu a {
+        padding-right: 15px;
+    }
+
+    .footer-title {
+    font-size: 25px;
+}
+
+    .details { 
+        font-size: 15px; 
+        padding-left: 20px;
+    }
+
+    .opening-hours-1 { font-size: 15px; }
+    
+    .opening-hours-2 { font-size: 15px; }
+    
+    .follow {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+    
+    .copyright {
+        font-size: 13px;
+    }
+    
+    .social-media i {
+        font-size: 20px;
+    }
+
+}
+
+
+/* Small tablet to big tablet: from 789px to 1023px */
+@media (max-width: 1023px) {
+
+
+    h1 { font-size: 45px; }
+
+    .main-menu a {
+        font-size: 18px;
+    }
+
+    .main-menu li {
+        margin-left: 20px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    h2 { font-size: 35px; }
+
+    .food-main-menu a {
+        font-size: 17px;
+        padding-right: 15px;
+    }
+
+    .food-menu { margin-top: 60px; }
+
+    .food-name{ font-size: 17px; }
+
+    .food-description{ font-size: 15px; }
+
+    .drinks-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .drink-name{ font-size: 17px; }
+    
+    .drinks-main-menu li { padding: 3px 0; }
+    
+    .drinks-main-menu a { font-size: 17px; }
+
+    .drinks-menu { margin-top: 60px; }
+
+    .container-small { width: 70%; }
+
+    .footer-title {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    
+    .details { 
+        font-size: 13px; 
+        padding-left: 20px;
+    }
+    
+    .opening-hours-1 { font-size: 13px; }
+    
+    .opening-hours-2 { font-size: 13px; }
+        
+    .follow {
+        font-size: 20px;
+        margin-top: -80px;
+    }
+        
+    .copyright {
+        font-size: 10px;
+        padding-top: 20px;
+
+    }
+        
+    .social-media i {
+        font-size: 17px;
+        padding: 7px;
+    }
+
+    
+}
+
+
+/* Small phones to small tablets: from 620px to 789px */
+@media (max-width: 789px) {
+
+    h1 { font-size: 35px; }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 17px;
+    }
+
+
+    nav .container {
+        justify-content: space-between;
+    }
+
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-right: -25%;
+        padding-top: 10px;
+        display: none;
+    }
+
+    .main-menu li {
+        padding: 3px 0;
+    }
+
+    .main-menu a:hover,
+    .main-menu a:active {
+        border-bottom: none;
+        transition-delay: 0;    
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+
+    .sticky .bar1,
+    .sticky .bar2,
+    .sticky .bar3  { 
+        background-color: #555; 
+    } 
+
+    .sticky .container {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin-left: auto;
+        padding-top: 7px;
+    }
+
+    .sticky .main-menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: auto;
+        margin-right: -57%;
+        display: none;
+        padding: 0 2px;
+    }
+
+    .sticky .logo-black { 
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+
+
+    h2 { font-size: 30px; }
+
+    .food {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .food-title {
+        margin-top: 40px;
+    }
+
+    .food-main-menu {
+        margin-top: 25px;
+    }
+
+    .food-main-menu a {
+        padding-right: 10px;
+    }
+
+    .food-menu { 
+        grid-template-columns: 1fr;
+        margin-top: 30px; 
+    }
+
+    .food-menu .image{
+        width: 70%;
+        border-radius: 80px;
+    }
+
+
+    .drink {
+        padding-bottom: 20px;
+    }
+
+    .drinks-title {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .drinks-main-menu li { padding: 3px 0; }
+    
+    .drinks-main-menu a { font-size: 17px; }
+
+
+    .drinks-menu { 
+        margin-top: 40px;
+        grid-template-columns: 1fr; 
+    }
+
+    .photos {
+        margin-top: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50vw;
+        padding: 0 2px;   
+    }
+
+    .container-small { width: 90%; }
+
+    .reservation-description {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .call-us {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr;
+    }
+
+    .map {
+        grid-area:  1 / 1 / 2 / 1;
+        margin: 5px 5px;
+    }
+
+    .footer-title {
+        font-size: 25px;
+    }
+  
+    .pub-info {
+        grid-area:  2 / 1 / 2/ 1;
+        margin-top: 20px;
+    }
+
+    .logo-footer {
+        width: 20%;
+        margin: 0 40%;
+    }
+    
+    .opening-hours {
+        grid-area:  3/ 1 / 3/ 1;
+        padding-top: 20px;
+    }
+    
+    .opening-hours-1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .social{
+        grid-area:  3 / 1 / 3 / 1;
+    }
+
+    .copyright {
+        font-size: 10px;
+        padding-top: 20px;
+    }
+
+    .follow {
+        font-size: 25px;
+    }
+
+
+}
+
+
+/* Small phones to small tablets: from 481px to 620px */
+@media (max-width: 620px) {
+    
+    h1 { font-size: 25px; }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo-black {
+        width: 40px;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 25px;
+        height: 3.5px;
+        margin: 3px 0;
+      }
+
+      .change .bar1 {
+        transform: rotate(-45deg) translate(-2px, 5px);
+      }
+      
+      .change .bar3 {
+        transform: rotate(45deg) translate(-3px, -7px);
+        -webkit-transform: rotate(45deg) translate(-3px, -7px);
+        -moz-transform: rotate(45deg) translate(-3px, -7px);
+        -ms-transform: rotate(45deg) translate(-3px, -7px);
+        -o-transform: rotate(45deg) translate(-3px, -7px);
+}
+
+    .main-menu a {
+        font-size: 15px;
+    }
+
+    .main-menu li {
+        padding: 3px 5px;
+
+    }
+
+    .hero-text-box a {
+        margin-top: -10px;
+    }
+
+    .btn {
+        padding: 8px 14px;
+        font-size: 15px;
+    }
+
+    h2 { font-size: 20px; }
+
+    .food {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .food-title { margin-top: 30px; }
+
+    .food-main-menu a {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    .food-name{ font-size: 15px; }
+
+    .food-description{ font-size: 13px; }
+
+    .price { font-size: 13px;  }
+
+    .drink {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .drinks-title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .drink-name{ font-size: 15px; }
+    
+    .drinks-main-menu li { padding: 3px 0; }
+    
+    .drinks-main-menu a { font-size: 15px; }
+
+    .drinks-menu { margin-top: 30px; }
+
+    .price-drinks { font-size: 13px; }
+
+    .gallery {
+        padding-top: 20px;
+    }
+
+    .reservations {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .reservation-description {
+        font-size: 15px;
+    }
+
+    .call-us {
+        font-size: 20px;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1.4fr;
+    }
+
+    
+.footer-title {
+    padding-top: 0px;
+}
+
+    .pub-info {
+        margin-top: 30px;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    .logo {
+        width: 90px;
+    }
+
+    .main-menu a {
+        font-size: 14px;
+    }
+
+    .main-menu {
+        margin-right: -18%;
+    }
+
+    .sticky .main-menu {
+        margin-right: -47%;
+    }
+
+    .sticky .logo-black { margin-left: 20px; }
+
+    
+}
